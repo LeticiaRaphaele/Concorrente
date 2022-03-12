@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="611.0" prefWidth="956.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controll.arvoreMain_Controll">
+   <children>
+      <ImageView fx:id="Run_Thread_Button" fitHeight="611.0" fitWidth="930.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Árvores-Árvore-7-PNG-300x222.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="712.0" prefHeight="611.0" prefWidth="240.0" style="-fx-background-color: WHITE;">
+         <children>
+            <Label layoutX="82.0" layoutY="42.0" text="Idades" textAlignment="CENTER">
+               <font>
+                  <Font name="Rockwell" size="23.0" />
+               </font>
+            </Label>
+            <Group fx:id="Pai_Label_TextF" layoutX="60.0" layoutY="123.0">
+               <children>
+                  <Label layoutX="-11.0" layoutY="3.0" text="Luis">
+                     <font>
+                        <Font name="Rockwell" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Pai_TextField" editable="false" layoutX="100.0" prefHeight="22.0" prefWidth="46.0" style="-fx-border-color: black; -fx-border-radius: 50; -fx-background-radius: 50;">
+                     <font>
+                        <Font name="Rockwell" size="18.0" />
+                     </font></TextField>
+               </children>
+            </Group>
+            <Group fx:id="Filho2_Label_TextF" layoutX="5.0" layoutY="215.0">
+               <children>
+                  <Label layoutX="27.0" layoutY="-1.0" text="Carlos">
+                     <font>
+                        <Font name="Rockwell" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="filho2_TextField" alignment="CENTER" editable="false" layoutX="153.0" layoutY="4.0" prefHeight="22.0" prefWidth="46.0" style="-fx-border-color: black; -fx-border-radius: 50; -fx-background-radius: 50;">
+                     <font>
+                        <Font name="Rockwell" size="18.0" />
+                     </font></TextField>
+               </children>
+            </Group>
+            <Group fx:id="Filho1_Label_TextF" layoutX="45.0" layoutY="170.0">
+               <children>
+                  <Label layoutX="0.87890625" layoutY="1.0" text="João">
+                     <font>
+                        <Font name="Rockwell" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Filho1_TextField" editable="false" layoutX="113.0" prefHeight="22.0" prefWidth="46.0" style="-fx-border-color: black; -fx-border-radius: 50; -fx-background-radius: 50;">
+                     <font>
+                        <Font name="Rockwell" size="18.0" />
+                     </font></TextField>
+               </children>
+            </Group>
+            <Group fx:id="Neto1_Label_TextF" layoutX="31.0" layoutY="323.0">
+               <children>
+                  <Label layoutX="0.1953125" layoutY="1.0" text="Alberto">
+                     <font>
+                        <Font name="Rockwell" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Neto1_TextField" alignment="CENTER" editable="false" layoutX="128.0" prefHeight="22.0" prefWidth="46.0" style="-fx-border-color: black; -fx-border-radius: 50; -fx-background-radius: 50;">
+                     <font>
+                        <Font name="Rockwell" size="18.0" />
+                     </font></TextField>
+               </children>
+            </Group>
+            <Group fx:id="Filho3_Label_TextField" layoutX="31.0" layoutY="270.0">
+               <children>
+                  <Label layoutX="0.1953125" layoutY="1.0" text="Arthur">
+                     <font>
+                        <Font name="Rockwell" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Filho3_TextField" alignment="CENTER" editable="false" layoutX="128.0" prefHeight="22.0" prefWidth="46.0" style="-fx-border-color: black; -fx-border-radius: 50; -fx-background-radius: 50;">
+                     <font>
+                        <Font name="Rockwell" size="18.0" />
+                     </font></TextField>
+               </children>
+            </Group>
+            <Group fx:id="Neto2_Label_TextF" layoutX="35.0" layoutY="371.0">
+               <children>
+                  <Label layoutY="1.0" text="Ricardo">
+                     <font>
+                        <Font name="Rockwell" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Neto2_TextField1" alignment="CENTER" editable="false" layoutX="125.0" layoutY="4.0" prefHeight="22.0" prefWidth="46.0" style="-fx-border-color: black; -fx-border-radius: 50; -fx-background-radius: 50;">
+                     <font>
+                        <Font name="Rockwell" size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </Group>
+            <Group fx:id="Bisneto_Label_TextF" layoutX="43.0" layoutY="424.0">
+               <children>
+                  <Label layoutX="0.87890625" layoutY="1.0" text="Julio">
+                     <font>
+                        <Font name="Rockwell" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Bisneto_TextField" alignment="CENTER" editable="false" layoutX="117.0" prefHeight="22.0" prefWidth="46.0" style="-fx-border-color: black; -fx-border-radius: 50; -fx-background-radius: 50;">
+                     <font>
+                        <Font name="Rockwell" size="18.0" />
+                     </font></TextField>
+               </children>
+            </Group>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="Iniciar_AnchorPane" layoutX="248.0" layoutY="485.0" prefHeight="86.0" prefWidth="222.0" style="-fx-background-color: white; -fx-border-color: #4f3131; -fx-border-width: 2; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <children>
+            <Button fx:id="Iniciar_Button" layoutX="56.0" layoutY="18.0" mnemonicParsing="false" style="-fx-background-color: #4f3130; -fx-background-radius: 50; -fx-border-radius: 50; -fx-border-color: grey;" text="Iniciar" textFill="#fafafa">
+               <font>
+                  <Font name="Rockwell" size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="RIP_Image" fitHeight="74.0" fitWidth="82.0" layoutX="313.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/RIP.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Pai_Velho_Image" fitHeight="74.0" fitWidth="82.0" layoutX="309.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/velho%201.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Pai_Adulto_Image" fitHeight="74.0" fitWidth="64.0" layoutX="330.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/adulto%201.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pai_criança_Image" fitHeight="61.0" fitWidth="90.0" layoutX="309.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/criança%201.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RIP_Image1" fitHeight="74.0" fitWidth="82.0" layoutX="164.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/RIP.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RIP_Image2" fitHeight="74.0" fitWidth="82.0" layoutX="314.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/RIP.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RIP_Image3" fitHeight="74.0" fitWidth="82.0" layoutX="476.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/jovem%205.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RIP_Image5" fitHeight="74.0" fitWidth="82.0" layoutX="482.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/RIP.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RIP_Image4" fitHeight="74.0" fitWidth="82.0" layoutX="314.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/RIP.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RIP_Image7" fitHeight="74.0" fitWidth="82.0" layoutX="314.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/RIP.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="adult2_Image" fitHeight="74.0" fitWidth="82.0" layoutX="168.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/jovem%201.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Child2_Image" fitHeight="74.0" fitWidth="82.0" layoutX="151.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/criança%202.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="Luis_Label_I" alignment="CENTER" contentDisplay="CENTER" layoutX="313.0" layoutY="91.0" prefHeight="10.0" prefWidth="71.0" style="-fx-background-color: #fafafa; -fx-border-color: black; -fx-border-width: 2; -fx-background-radius: 50; -fx-border-radius: 50;" text="Luis">
+         <font>
+            <Font name="Rockwell" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Joao_Label_I" alignment="CENTER" contentDisplay="CENTER" layoutX="314.0" layoutY="201.0" prefHeight="10.0" prefWidth="71.0" style="-fx-background-color: #fafafa; -fx-border-color: black; -fx-border-width: 2; -fx-background-radius: 50; -fx-border-radius: 50;" text="João">
+         <font>
+            <Font name="Rockwell" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Carlos_Label_I" alignment="CENTER" contentDisplay="CENTER" layoutX="478.0" layoutY="201.0" prefHeight="10.0" prefWidth="71.0" style="-fx-background-color: #fafafa; -fx-border-color: black; -fx-border-width: 2; -fx-background-radius: 50; -fx-border-radius: 50;" text="Carlos">
+         <font>
+            <Font name="Rockwell" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Arthur_Label_I" alignment="CENTER" contentDisplay="CENTER" layoutX="156.0" layoutY="201.0" prefHeight="10.0" prefWidth="71.0" style="-fx-background-color: #fafafa; -fx-border-color: black; -fx-border-width: 2; -fx-background-radius: 50; -fx-border-radius: 50;" text="Arthur">
+         <font>
+            <Font name="Rockwell" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Alberto_Label_I" alignment="CENTER" contentDisplay="CENTER" layoutX="309.0" layoutY="318.0" prefHeight="28.0" prefWidth="82.0" style="-fx-background-color: #fafafa; -fx-border-color: black; -fx-border-width: 2; -fx-background-radius: 50; -fx-border-radius: 50;" text="Alberto">
+         <font>
+            <Font name="Rockwell" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Julio_Label_I" alignment="CENTER" contentDisplay="CENTER" layoutX="314.0" layoutY="440.0" prefHeight="10.0" prefWidth="71.0" style="-fx-background-color: #fafafa; -fx-border-color: black; -fx-border-width: 2; -fx-background-radius: 50; -fx-border-radius: 50;" text="Julio">
+         <font>
+            <Font name="Rockwell" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Ricardo_Label_I" alignment="CENTER" contentDisplay="CENTER" layoutX="478.0" layoutY="318.0" prefHeight="28.0" prefWidth="79.0" style="-fx-background-color: #fafafa; -fx-border-color: black; -fx-border-width: 2; -fx-background-radius: 50; -fx-border-radius: 50;" text="Ricardo">
+         <font>
+            <Font name="Rockwell" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="Adult_Son2_Image" fitHeight="74.0" fitWidth="74.0" layoutX="313.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/adulto%202.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Crianca_2son_Image" fitHeight="74.0" fitWidth="82.0" layoutX="320.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/jovem%202.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Bisneto_Image" fitHeight="74.0" fitWidth="82.0" layoutX="309.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/criança%205.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Neto1_Adult_Image" fitHeight="74.0" fitWidth="82.0" layoutX="313.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Adult%205.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RIP_Image8" fitHeight="74.0" fitWidth="82.0" layoutX="482.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/RIP.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Filho3_Adulto_Image1" fitHeight="74.0" fitWidth="82.0" layoutX="485.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Adulto%203.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Neto2_Adulto_Image" fitHeight="74.0" fitWidth="82.0" layoutX="483.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/adulto%204.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Neto2_child_Image1" fitHeight="74.0" fitWidth="82.0" layoutX="482.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/jovem%203.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Neto1_child_Image1" fitHeight="74.0" fitWidth="82.0" layoutX="315.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/criança%203.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
