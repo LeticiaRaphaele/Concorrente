@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="611.0" prefWidth="968.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controll.Controll_Como_Jogar">
+   <children>
+      <ImageView fitHeight="611.0" fitWidth="982.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/free-gallows-vector.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="273.0" layoutY="14.0" text="Como Jogar" textFill="#4b0e0e">
+         <font>
+            <Font name="Rockwell Extra Bold" size="60.0" />
+         </font>
+      </Label>
+      <Pane layoutX="8.0" layoutY="31.0" prefHeight="580.0" prefWidth="363.0" style="-fx-border-color: #4b0e0e; -fx-border-width: 0; -fx-border-radius: 20;">
+         <children>
+            <Text fill="#d7562b" fontSmoothingType="LCD" layoutX="14.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Durante a partida, o jogador tem a oportunidade de mudar de categoria clicando no botão de voltar no lado inferior direito e a chance de ir para a pagina inicial ao clicar no botão de voltar no canto superior esquerdo." textAlignment="JUSTIFY" wrappingWidth="335.19996337890615">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#d7562b" fontSmoothingType="LCD" layoutX="14.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O jogador tem 6 chances para acertar a palavra, após a perda ou ganho da partida será dada a oportunidade para o jogador tentar novamente." textAlignment="JUSTIFY" wrappingWidth="335.19996337890615">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#d7562b" fontSmoothingType="LCD" layoutX="14.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Para jogar clique em inicar jogo, lá você encontrará três categorias para escolher. Essas categorias indicarão que tipo de palavra é a que você estara tentando adivinhar. " textAlignment="JUSTIFY" wrappingWidth="335.19997175753724">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Button fx:id="Voltar_Button" layoutX="4.0" layoutY="9.0" mnemonicParsing="false" onAction="#voltar" prefHeight="30.0" prefWidth="35.0" style="-fx-background-radius: 100; -fx-background-color: #fafafa; -fx-border-radius: 100; -fx-background-image: 234;" text="&lt;" textAlignment="JUSTIFY" textFill="#4b0e0e">
+         <font>
+            <Font name="Rockwell Extra Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

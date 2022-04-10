@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="741.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ControlePrincipal">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="752.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Trilho.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RedFlag_RedTrain1" fitHeight="51.0" fitWidth="40.0" layoutX="154.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/bandeira%20vermelha%20Invertida.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="BlueTrain_Image" fitHeight="58.0" fitWidth="75.0" layoutX="-3.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" x="686.0" y="341.0">
+         <image>
+            <Image url="@../images/icons8-train-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RedTrain_Image" fitHeight="65.0" fitWidth="89.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-train-66.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="448.0" layoutY="431.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-radius: 10; -fx-background-radius: 10;" text="Velocidade do Trem" textFill="#180bd9">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="431.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-radius: 10; -fx-background-radius: 10;" text="Velocidade do Trem" textFill="#db0909">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="RedFlag_BlueTrain1" fitHeight="51.0" fitWidth="50.0" layoutX="633.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/bandeira%20Vermelha.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RedFlag_BlueTrain2" fitHeight="51.0" fitWidth="50.0" layoutX="298.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/bandeira%20Vermelha.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RedFlag_RedTrain2" fitHeight="51.0" fitWidth="40.0" layoutX="493.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/bandeira%20vermelha%20Invertida.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="REDPlus_Button" layoutX="224.0" layoutY="380.0" mnemonicParsing="false" onAction="#aumetarSpeedREDT" prefHeight="24.0" prefWidth="37.0" style="-fx-background-color: white; -fx-border-color: black; -fx-background-radius: 15; -fx-border-radius: 10;" text="+" textAlignment="CENTER">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="RedMinus_Button" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="136.0" layoutY="380.0" mnemonicParsing="false" onAction="#diminuirSpeedREDT" prefHeight="24.0" prefWidth="37.0" style="-fx-background-color: white; -fx-border-color: black; -fx-background-radius: 15; -fx-border-radius: 10;" text="-" textAlignment="CENTER">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="BLUEPlus_Button" layoutX="549.0" layoutY="380.0" mnemonicParsing="false" onAction="#aumetarSpeedBLUET" prefHeight="24.0" prefWidth="37.0" style="-fx-background-color: white; -fx-border-color: black; -fx-background-radius: 15; -fx-border-radius: 10;" text="+" textAlignment="CENTER">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="BLUEMinus_Button" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="476.0" layoutY="380.0" mnemonicParsing="false" onAction="#diminuirSpeedBLUET" prefHeight="24.0" prefWidth="37.0" style="-fx-background-color: white; -fx-border-color: black; -fx-background-radius: 15; -fx-border-radius: 10;" text="-" textAlignment="CENTER">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="612.0" prefWidth="968.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controll.Controll_InicialPage">
+   <children>
+      <ImageView fitHeight="641.0" fitWidth="975.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/free-gallows-vector.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="226.0" layoutY="51.0" text="JOGO DA FORCA" textAlignment="CENTER" textFill="#4b0e0ef7">
+         <font>
+            <Font name="Rockwell Extra Bold" size="60.0" />
+         </font>
+      </Label>
+      <Button fx:id="Iniciar_jogo_Button" layoutX="32.0" layoutY="282.0" mnemonicParsing="false" onAction="#irPara_Iniciar_Jogo" prefHeight="42.0" prefWidth="239.0" style="-fx-background-color: #b4605a; -fx-background-radius: 50;" text="Iniciar jogo" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="como_Jogar_Button" layoutX="32.0" layoutY="391.0" mnemonicParsing="false" onAction="#Para_Como_Jogar" prefHeight="42.0" prefWidth="239.0" style="-fx-background-color: #b4605a; -fx-background-radius: 50;" text="Como Jogar" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="sobreNos_Button" layoutX="32.0" layoutY="496.0" mnemonicParsing="false" onAction="#ir_Sobre_Nos" prefHeight="42.0" prefWidth="239.0" style="-fx-background-color: #b4605a; -fx-background-radius: 50;" text="Sobre nós" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="45.0" layoutY="124.0" prefHeight="74.0" prefWidth="154.0" text="Let's" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="178.0" prefHeight="101.0" prefWidth="144.0" text="Play!" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="45.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

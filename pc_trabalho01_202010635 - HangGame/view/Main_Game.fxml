@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import java.util.ArrayList?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="611.0" prefWidth="968.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controll.Controll_MainGame">
+   <children>
+      <AnchorPane fx:id="anchorPane2" layoutX="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="611.0" prefWidth="968.0" style="-fx-background-color: #fccaae;">
+         <children>
+            <ImageView fitHeight="611.0" fitWidth="982.0" layoutX="-74.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/TikiMan1HB.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="Confirmar_Button" layoutX="530.0" layoutY="510.0" mnemonicParsing="false" onAction="#Confirmar" prefHeight="49.0" prefWidth="205.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #fafafa; -fx-border-color: black;" text="Confirmar" textFill="#4b0e0e">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="25.0" />
+               </font>
+            </Button>
+            <Group layoutX="89.0" layoutY="102.0">
+               <children>
+                  <ImageView fx:id="cabeca_img" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/cabeca.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="braco_direito_Img" fitHeight="98.0" fitWidth="96.0" layoutX="96.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/braco-direito.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="perna_direita_img" fitHeight="105.0" fitWidth="96.0" layoutX="96.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/braco-direito.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="perna_esquerda_img" fitHeight="98.0" fitWidth="113.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/braco-esquerdo.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="braco_esquerdo_img" fitHeight="98.0" fitWidth="124.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/braco-esquerdo.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="corpo_Img" fitHeight="220.0" fitWidth="16.0" layoutX="91.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/body.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group layoutX="363.0" layoutY="304.0">
+               <children>
+                  <TextField fx:id="char2_TextField" alignment="CENTER" editable="false" layoutX="48.0" prefHeight="49.0" prefWidth="48.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="char6_TextField" alignment="CENTER" editable="false" layoutX="240.0" prefHeight="49.0" prefWidth="48.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="char5_TextField" alignment="CENTER" editable="false" layoutX="192.0" prefHeight="49.0" prefWidth="48.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="char4_TextField" alignment="CENTER" editable="false" layoutX="144.0" prefHeight="49.0" prefWidth="48.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="char3_TextField" alignment="CENTER" editable="false" layoutX="96.0" prefHeight="49.0" prefWidth="48.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="char11_TextField" alignment="CENTER" editable="false" layoutX="479.0" prefHeight="49.0" prefWidth="48.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="char10_TextField" alignment="CENTER" editable="false" layoutX="431.0" prefHeight="49.0" prefWidth="48.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="char8_TextField" alignment="CENTER" editable="false" layoutX="335.0" prefHeight="49.0" prefWidth="48.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="char9_TextField" alignment="CENTER" editable="false" layoutX="383.0" prefHeight="49.0" prefWidth="48.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="char7_TextField" alignment="CENTER" editable="false" layoutX="287.0" prefHeight="48.0" prefWidth="48.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="char1_TextField" alignment="CENTER" editable="false" prefHeight="48.0" prefWidth="48.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="char12_TextField" alignment="CENTER" editable="false" layoutX="527.0" prefHeight="49.0" prefWidth="48.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </Group>                 
+            <fx:define>
+               <ArrayList fx:id="Char_TextField">
+                  <fx:reference source="char1_TextField" />
+                  <fx:reference source="char2_TextField" /> 
+                  <fx:reference source="char3_TextField" /> 
+                  <fx:reference source="char4_TextField" /> 
+                  <fx:reference source="char5_TextField" /> 
+                  <fx:reference source="char6_TextField" /> 
+                  <fx:reference source="char7_TextField" /> 
+                  <fx:reference source="char8_TextField" /> 
+                  <fx:reference source="char9_TextField" /> 
+                  <fx:reference source="char10_TextField" /> 
+                  <fx:reference source="char11_TextField" /> 
+                  <fx:reference source="char12_TextField" /> 
+               </ArrayList>
+            </fx:define>
+            <TextField fx:id="TryOut_TextField1" alignment="CENTER" layoutX="602.0" layoutY="429.0" prefHeight="50.0" prefWidth="60.0" style="-fx-background-radius: 15;">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="25.0" />
+               </font>
+            </TextField>
+            <Label layoutX="476.0" layoutY="193.0" text="Qual é a palavra?" textFill="#4b0e0e">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="30.0" />
+               </font>
+            </Label>
+            <Group layoutX="377.0" layoutY="54.0">
+               <children>
+                  <Label text="Tentativas" textFill="#4b0e0e">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Tentativas_TextField" alignment="CENTER" editable="false" layoutX="46.0" layoutY="38.0" onAction="#Tentativas_no_TextField" prefHeight="59.0" prefWidth="74.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="30.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="Tam_TextField" alignment="CENTER" editable="false" layoutX="355.0" layoutY="38.0" prefHeight="58.0" prefWidth="79.0" style="-fx-background-radius: 15;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="30.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="234.0" layoutY="1.0" text="Tamanho da Palavra" textFill="#4b0e0e">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+            <Button fx:id="Voltar_InicialPage" mnemonicParsing="false" onAction="#backInicialPage" prefHeight="38.0" prefWidth="48.0" style="-fx-background-color: #fafafa; -fx-border-radius: 100; -fx-background-radius: 100;" text="&lt;" textFill="#4b0e0e">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="572.0" layoutY="380.0" text="A letra é" textFill="#4b0e0e">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="25.0" />
+               </font>
+            </Label>
+            <AnchorPane fx:id="anchorPane3" layoutX="363.0" layoutY="162.0" prefHeight="436.0" prefWidth="511.0" style="-fx-background-color: #d6562b; -fx-border-color: black; -fx-background-radius: 20; -fx-border-radius: 20;">
+               <children>
+                  <Button fx:id="TentarNovaemnte_Button" layoutX="116.0" layoutY="347.0" mnemonicParsing="false" onAction="#TentarDenovo" style="-fx-background-color: #fafafa; -fx-background-radius: 50; -fx-border-color: black; -fx-border-radius: 50; -fx-border-width: 2;" text="Jogar Novamente">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="25.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="Palavra_TextField" alignment="CENTER" editable="false" layoutX="83.0" layoutY="114.0" onAction="#getWord" style="-fx-background-color: #fafafa; -fx-border-color: BLACK; -fx-background-radius: 50; -fx-border-radius: 50;">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="25.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="89.0" layoutY="36.0" text="A palavra era:" textFill="#fafafa">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="40.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="YouWin_TextField" alignment="CENTER" editable="false" layoutX="73.0" layoutY="195.0" prefHeight="125.0" prefWidth="385.0" promptText="Você venceu!" style="-fx-background-color: #fafafa; -fx-background-radius: 50; -fx-border-color: black; -fx-border-radius: 50;" text="Você venceu!">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="40.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="GameOver_TextField" alignment="CENTER" editable="false" layoutX="73.0" layoutY="195.0" onAction="#winOrLose" prefHeight="125.0" prefWidth="385.0" style="-fx-background-color: #fafafa; -fx-background-radius: 50; -fx-border-color: black; -fx-border-radius: 50;" text="Game Over!">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="40.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </AnchorPane>
+            <Button fx:id="Voltar_Button" layoutX="901.0" layoutY="554.0" mnemonicParsing="false" onAction="#voltar" prefHeight="38.0" prefWidth="48.0" style="-fx-background-radius: 100; -fx-background-color: #fafafa; -fx-border-radius: 100; -fx-background-image: 234;" text="&lt;" textAlignment="JUSTIFY" textFill="#4b0e0e">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anchorPane1" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="968.0">
+         <children>
+            <ImageView fitHeight="611.0" fitWidth="992.0" layoutX="-11.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Free-gallows-vector-Center.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="78.0" text="Escolha sua Categoria?" textFill="#4b0e0e">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="60.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="149.0" layoutY="340.0" prefHeight="106.0" prefWidth="670.0" style="-fx-background-color: #d6562b; -fx-border-color: black; -fx-border-radius: 100; -fx-background-radius: 100;">
+               <children>
+                  <Button fx:id="Animais_Button" layoutX="490.0" layoutY="31.0" mnemonicParsing="false" onAction="#animais_MainGame" prefHeight="44.0" prefWidth="144.0" style="-fx-background-color: #fafafa; -fx-border-color: BLACK; -fx-border-radius: 50; -fx-background-radius: 50;" text="Animais" textFill="#d6562b">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Comida_Button" layoutX="263.0" layoutY="31.0" mnemonicParsing="false" onAction="#comida_MainGame" prefHeight="44.0" prefWidth="144.0" style="-fx-background-color: white; -fx-border-color: BLACK; -fx-border-radius: 50; -fx-background-radius: 50;" text="Comida" textFill="#d6562b">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Cidade_Button" layoutX="30.0" layoutY="31.0" mnemonicParsing="false" onAction="#cidades_MainGame" prefHeight="44.0" prefWidth="144.0" style="-fx-background-color: White; -fx-border-color: BLACK; -fx-border-radius: 50; -fx-background-radius: 50;" text="Cidades" textFill="#d6562b">
+                     <font>
+                        <Font name="Rockwell Extra Bold" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Button fx:id="ComeBack_Button" layoutX="905.0" layoutY="550.0" mnemonicParsing="false" onAction="#comeBack" style="-fx-background-color: #fafafa; -fx-background-radius: 100; -fx-border-color: #4b0e0e; -fx-border-radius: 100; -fx-border-width: 2;" text="&lt;" textFill="#4b0e0e">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
