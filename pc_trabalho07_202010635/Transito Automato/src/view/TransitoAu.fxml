@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="745.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controll.TransitControll">
+   <children>
+      <ImageView fitHeight="708.0" fitWidth="714.0" layoutX="5.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Background.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="blackCar_5" fitHeight="62.0" fitWidth="69.0" layoutX="5.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-sedan-100%20(6).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="greenCargreenCar" fitHeight="62.0" fitWidth="69.0" layoutX="252.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-sedan-100%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="purpleCar_7" fitHeight="62.0" fitWidth="69.0" layoutX="14.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-sedan-100%20(3).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="blueCar_9" fitHeight="62.0" fitWidth="69.0" layoutX="23.0" layoutY="563.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-sedan-100%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="yellowCar_14" fitHeight="62.0" fitWidth="69.0" layoutX="670.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-sedan-100%20(4).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="redCar_4" fitHeight="62.0" fitWidth="69.0" layoutX="283.0" layoutY="419.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-sedan-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lilyCar_19" fitHeight="62.0" fitWidth="69.0" layoutX="397.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-sedan-100%20(5).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
