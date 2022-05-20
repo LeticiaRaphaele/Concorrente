@@ -1,24 +1,28 @@
 package model;
 
+import java.util.concurrent.Semaphore;
+
+import controll.TransitControll;
 import javafx.application.Platform;
 import javafx.scene.image.ImageView;
 
 public class BaseCar extends Thread{
-  private final ImageView FIRSTIMAGE;
-  private ImageView image;
-  private int Wimage;
-  private double posX;
-  private double posY;
-  private double rotate;
-  private int speed;
+  protected final ImageView FIRSTIMAGE;
+  protected ImageView image;
+  protected int Wimage;
+  protected double posX;
+  protected double posY;
+  protected double rotate;
+  protected int speed;
 
-  public BaseCar(ImageView image, double posX, double posY){
+  public BaseCar(ImageView image, TransitControll controll){
     this.image = image;
     this.FIRSTIMAGE = image;
     this.posX = image.getX();
-    this.posY = image.getY();;
+    this.posY = image.getY();
+    System.out.println(posY);
     this.rotate = image.getRotate();
-    this.speed = 1000;
+    this.speed = 3;
     this.Wimage = 0;
   }
 
@@ -30,12 +34,7 @@ public class BaseCar extends Thread{
       this.image = image;
   }
 
-  public void changingImage(ImageView Reimage){
-    if(Wimage != 0)
-      setImage(Reimage);
-    else
-      setImage(FIRSTIMAGE);
-  }
+
 
   public void moveX(double X){
     while(posX != X){
@@ -57,6 +56,7 @@ public class BaseCar extends Thread{
   public void moveY(double Y){
     while(posY != Y){
       try{
+        Thread.sleep(speed);
         Platform.runLater(()->{
           image.setY(posY);
         });
@@ -73,15 +73,18 @@ public class BaseCar extends Thread{
   public void rotation(double rotat){
     while(rotate != rotat){
       try{
+        Thread.sleep(speed);
         Platform.runLater(()->{
           image.setRotate(rotate);
         });
-        rotate +=15;
-        if(rotate == 360)
-          rotate = 0;
+        if(rotate > rotat)
+          rotate--;
+          else
+        rotate++;
       }catch(Exception e){
         e.printStackTrace();
       }
     }
   }
+
 }

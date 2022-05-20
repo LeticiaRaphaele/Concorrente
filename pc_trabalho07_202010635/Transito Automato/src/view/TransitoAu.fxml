@@ -4,7 +4,6 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="745.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controll.TransitControll">
    <children>
       <ImageView fitHeight="708.0" fitWidth="714.0" layoutX="5.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
@@ -12,39 +11,39 @@
             <Image url="@../images/Background.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="blackCar_5" fitHeight="62.0" fitWidth="69.0" layoutX="5.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="blackCar_5" fitHeight="40.0" fitWidth="40.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/icons8-sedan-100%20(6).png" />
+            <Image url="@../images/BlackCar.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="greenCargreenCar" fitHeight="62.0" fitWidth="69.0" layoutX="252.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="greenCar16" fitHeight="52.0" fitWidth="40.0" layoutX="256.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
          <image>
-            <Image url="@../images/icons8-sedan-100%20(2).png" />
+            <Image url="@../images/GreenCar.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="purpleCar_7" fitHeight="62.0" fitWidth="69.0" layoutX="14.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="purpleCar_7" fitHeight="40.0" fitWidth="40.0" layoutX="20.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/icons8-sedan-100%20(3).png" />
+            <Image url="@../images/PurpleCar.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="blueCar_9" fitHeight="62.0" fitWidth="69.0" layoutX="23.0" layoutY="563.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="blueCar_9" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" x="20.0" y="584.0">
          <image>
-            <Image url="@../images/icons8-sedan-100%20(1).png" />
+            <Image url="@../images/BlueCar.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="yellowCar_14" fitHeight="62.0" fitWidth="69.0" layoutX="670.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="yellowCar_14" fitHeight="40.0" fitWidth="40.0" layoutX="675.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
          <image>
-            <Image url="@../images/icons8-sedan-100%20(4).png" />
+            <Image url="@../images/YellowCar.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="redCar_4" fitHeight="62.0" fitWidth="69.0" layoutX="283.0" layoutY="419.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="redCar_4" fitHeight="40.0" fitWidth="40.0" layoutX="283.0" layoutY="439.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/icons8-sedan-100.png" />
+            <Image url="@../images/RedCar.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="lilyCar_19" fitHeight="62.0" fitWidth="69.0" layoutX="397.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="lilyCar_19" fitHeight="40.0" fitWidth="40.0" layoutX="406.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
          <image>
-            <Image url="@../images/icons8-sedan-100%20(5).png" />
+            <Image url="@../images/LilyCar.png" />
          </image>
       </ImageView>
    </children>
