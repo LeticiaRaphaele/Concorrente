@@ -20,16 +20,29 @@ public class PurpleCar extends BaseCar {
 
       Variable.HBlacknPurpleGreen.acquire();
       Variable.VBlacknPurpleGreen.acquire();
+
       Variable.H1BlacknPurple.acquire();
       Variable.V1BlacknPurple.acquire();
+      
+      Variable.HPurpleGreenYellow.acquire();
+      Variable.VYellownPurple.acquire();
       moveX(655);
       
       rotation(90);
+
       moveY(-295);
       rotation(180);
+
       Variable.VBlacknPurpleGreen.release();
+      Variable.VYellownPurple.release();
+
       Variable.V2BlacknPurple.acquire();
       Variable.V1BlacknPurple.release();
+
+      moveX(386);
+      
+      Variable.HPurpleGreenYellow.release();
+      
       moveX(263);
 
       Variable.HBlacknPurpleGreen.release();
@@ -39,6 +52,7 @@ public class PurpleCar extends BaseCar {
       moveY(0);
       rotation(0);
       moveX(20);
+
       Variable.V2BlacknPurple.release();
       Variable.H1BlacknPurple.release();
 

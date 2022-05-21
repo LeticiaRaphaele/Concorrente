@@ -60,9 +60,9 @@ public class TransitControll implements Initializable{
 
     YellowCar yellowCar = new YellowCar(yellowCar_14, this);
 
-    //yellowCar.start();
+    yellowCar.start();
     RedCar redCar = new RedCar(redCar_4, this);
-    redCar.start();
+    //redCar.start();
 
   }
 

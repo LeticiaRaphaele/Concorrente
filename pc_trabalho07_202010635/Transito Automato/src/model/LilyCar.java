@@ -8,7 +8,7 @@ public class LilyCar extends BaseCar {
 
   public LilyCar(ImageView image, TransitControll controll) {
     super(image, controll);
-    //TODO Auto-generated constructor stub
+
   }
   
   @Override
